@@ -17,3 +17,4 @@ class ProductPageLocators:
     PRICE = (By.CSS_SELECTOR, "div.product_main > p")
     TITLE_CHECKED = (By.CSS_SELECTOR, "#messages div:nth-child(1) strong")
     PRICE_CHECKED = (By.CSS_SELECTOR, "#messages div:nth-child(3) strong")
+    SUCCESS = (By.CSS_SELECTOR, ".alert-success")
