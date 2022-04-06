@@ -11,3 +11,9 @@ class LoginPageLocators:
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")  # TODO: change selector value
 
 
+class ProductPageLocators:
+    ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    TITLE = (By.CSS_SELECTOR, "div.product_main > h1")
+    PRICE = (By.CSS_SELECTOR, "div.product_main > p")
+    TITLE_CHECKED = (By.CSS_SELECTOR, "#messages div:nth-child(1) strong")
+    PRICE_CHECKED = (By.CSS_SELECTOR, "#messages div:nth-child(3) strong")
